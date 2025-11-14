@@ -359,3 +359,19 @@ nav a:hover {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   }
 }
+
+@media(max-width: 992px){
+  body{
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 600px){
+  body{
+    font-size: 14px;
+  }
+  nav{
+    flex-direction: column;
+  }
+}
+
